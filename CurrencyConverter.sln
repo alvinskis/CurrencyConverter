@@ -1,0 +1,88 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CurrencyConverter.API", "CurrencyConverter.API\CurrencyConverter.API.csproj", "{27BFED57-047A-4867-B2B2-740E09E12879}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{9E4C07CE-24E9-4536-B7DE-8A3CF3475087}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CurrencyConverter.Domain", "CurrencyConverter.Domain\CurrencyConverter.Domain.csproj", "{5C64DC14-3ABC-43C4-8D83-6F9A0EA2F564}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CurrencyConverter.Application", "CurrencyConverter.Application\CurrencyConverter.Application.csproj", "{247F4E73-8149-45DE-AFA7-E1805BA83C1C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CurrencyConverter.Infrastructure", "CurrencyConverter.Infrastructure\CurrencyConverter.Infrastructure.csproj", "{DE54DC0C-4EA4-4664-A210-933A4A37D0C4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{53B71534-5AD6-454A-BB7E-D53D80C2EFFF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{111413CB-771D-4566-B88D-B7FA804DCA06}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{D5B0D497-8696-44A4-BCD9-5D4B025A3BDD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CurrencyConverter.Persistence", "CurrencyConverter.Persistence\CurrencyConverter.Persistence.csproj", "{36C87BBE-F0F3-42C6-9EB9-4515829C6BF5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{674BC81D-4397-4797-9D56-5A4162C6EE45}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CurrencyConverter.Infrastructure.UnitTests", "CurrencyConverter.Infrastructure.UnitTests\CurrencyConverter.Infrastructure.UnitTests.csproj", "{B02D1A67-EDAA-44E9-8EBC-BBB3FB2E459A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CurrencyConverter.API.UnitTests", "CurrencyConverter.API.UnitTests\CurrencyConverter.API.UnitTests.csproj", "{0B780972-F0A3-413B-8C40-D20C601BF1D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CurrencyConverter.Application.UnitTests", "CurrencyConverter.Application.UnitTests\CurrencyConverter.Application.UnitTests.csproj", "{D218B429-9023-4F52-A320-41A54ED38056}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CurrencyConverter.Persistence.UnitTests", "CurrencyConverter.Persistence.UnitTests\CurrencyConverter.Persistence.UnitTests.csproj", "{86CFD557-FD15-42C0-9D70-A819A3D11581}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{27BFED57-047A-4867-B2B2-740E09E12879}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27BFED57-047A-4867-B2B2-740E09E12879}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27BFED57-047A-4867-B2B2-740E09E12879}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27BFED57-047A-4867-B2B2-740E09E12879}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C64DC14-3ABC-43C4-8D83-6F9A0EA2F564}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C64DC14-3ABC-43C4-8D83-6F9A0EA2F564}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C64DC14-3ABC-43C4-8D83-6F9A0EA2F564}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C64DC14-3ABC-43C4-8D83-6F9A0EA2F564}.Release|Any CPU.Build.0 = Release|Any CPU
+		{247F4E73-8149-45DE-AFA7-E1805BA83C1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{247F4E73-8149-45DE-AFA7-E1805BA83C1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{247F4E73-8149-45DE-AFA7-E1805BA83C1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{247F4E73-8149-45DE-AFA7-E1805BA83C1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE54DC0C-4EA4-4664-A210-933A4A37D0C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE54DC0C-4EA4-4664-A210-933A4A37D0C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE54DC0C-4EA4-4664-A210-933A4A37D0C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE54DC0C-4EA4-4664-A210-933A4A37D0C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36C87BBE-F0F3-42C6-9EB9-4515829C6BF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36C87BBE-F0F3-42C6-9EB9-4515829C6BF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36C87BBE-F0F3-42C6-9EB9-4515829C6BF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36C87BBE-F0F3-42C6-9EB9-4515829C6BF5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B02D1A67-EDAA-44E9-8EBC-BBB3FB2E459A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B02D1A67-EDAA-44E9-8EBC-BBB3FB2E459A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B02D1A67-EDAA-44E9-8EBC-BBB3FB2E459A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B02D1A67-EDAA-44E9-8EBC-BBB3FB2E459A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B780972-F0A3-413B-8C40-D20C601BF1D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B780972-F0A3-413B-8C40-D20C601BF1D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B780972-F0A3-413B-8C40-D20C601BF1D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B780972-F0A3-413B-8C40-D20C601BF1D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D218B429-9023-4F52-A320-41A54ED38056}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D218B429-9023-4F52-A320-41A54ED38056}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D218B429-9023-4F52-A320-41A54ED38056}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D218B429-9023-4F52-A320-41A54ED38056}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86CFD557-FD15-42C0-9D70-A819A3D11581}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86CFD557-FD15-42C0-9D70-A819A3D11581}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86CFD557-FD15-42C0-9D70-A819A3D11581}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86CFD557-FD15-42C0-9D70-A819A3D11581}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{53B71534-5AD6-454A-BB7E-D53D80C2EFFF} = {9E4C07CE-24E9-4536-B7DE-8A3CF3475087}
+		{111413CB-771D-4566-B88D-B7FA804DCA06} = {9E4C07CE-24E9-4536-B7DE-8A3CF3475087}
+		{D5B0D497-8696-44A4-BCD9-5D4B025A3BDD} = {9E4C07CE-24E9-4536-B7DE-8A3CF3475087}
+		{247F4E73-8149-45DE-AFA7-E1805BA83C1C} = {53B71534-5AD6-454A-BB7E-D53D80C2EFFF}
+		{5C64DC14-3ABC-43C4-8D83-6F9A0EA2F564} = {53B71534-5AD6-454A-BB7E-D53D80C2EFFF}
+		{DE54DC0C-4EA4-4664-A210-933A4A37D0C4} = {111413CB-771D-4566-B88D-B7FA804DCA06}
+		{36C87BBE-F0F3-42C6-9EB9-4515829C6BF5} = {111413CB-771D-4566-B88D-B7FA804DCA06}
+		{27BFED57-047A-4867-B2B2-740E09E12879} = {D5B0D497-8696-44A4-BCD9-5D4B025A3BDD}
+		{B02D1A67-EDAA-44E9-8EBC-BBB3FB2E459A} = {674BC81D-4397-4797-9D56-5A4162C6EE45}
+		{0B780972-F0A3-413B-8C40-D20C601BF1D2} = {674BC81D-4397-4797-9D56-5A4162C6EE45}
+		{D218B429-9023-4F52-A320-41A54ED38056} = {674BC81D-4397-4797-9D56-5A4162C6EE45}
+		{86CFD557-FD15-42C0-9D70-A819A3D11581} = {674BC81D-4397-4797-9D56-5A4162C6EE45}
+	EndGlobalSection
+EndGlobal
